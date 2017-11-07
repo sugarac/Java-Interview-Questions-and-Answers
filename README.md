@@ -41,18 +41,30 @@ static method can access static data member and can change the value of it. <br 
 > It is used to initialize the static data member. <br />
 It is excuted before main method at the time of classloading. <br />
 
-Inheritance
+### Inheritance
 * What is this in java?
 > It is a keyword that that refers to the current object.
 * What is super in java?
 > It is a keyword that refers to the immediate parent class object.
 * Can you use this() and super() both in a constructor?
 > No. Because super() or this() must be the first statement.
-
 * What is Inheritance?
 > Inheritance is a mechanism in which one object acquires all the properties and behaviour of another object of another class. It represents IS-A relationship. It is used for Code Resusability and Method Overriding.
 * What is composition?
 > Holding the reference of the other class within some other class is known as composition.
+
+### Method Overloading & Overriding 
+* What is method overloading?
+> If a class have multiple methods by same name but different parameters, it is known as Method Overloading. It increases the readability of the program.
+* Why method overloading is not possible by changing the return type in java?
+> Becauseof ambiguity.
+* Can we overload main() method?
+> Yes, You can have many main() methods in a class by overloading the main method.
+* What is method overriding:
+> If a subclass provides a specific implementation of a method that is already provided by its parent class, it is known as Method Overriding. It is used for runtime polymorphism and to provide the specific implementation of the method.
+* Can we override static method? Why?
+> No. It is because the static method is the part of class and it is bound with class whereas instance method is bound with object and static gets memory in class area and instance gets memory in heap.
+
 
 
 ### Interesting
