@@ -14,4 +14,4 @@
 
 ## High Level
 * What is the default value of the local variables?
-<p> The local variables are not initialized to any default value, neither primitives nor object references.
+> The local variables are not initialized to any default value, neither primitives nor object references.
