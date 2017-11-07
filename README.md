@@ -43,7 +43,12 @@ It is excuted before main method at the time of classloading. <br />
 
 Inheritance
 * What is this in java?
-It is a keyword that that refers to the current object.
+> It is a keyword that that refers to the current object.
+* What is super in java?
+> It is a keyword that refers to the immediate parent class object.
+* Can you use this() and super() both in a constructor?
+> No. Because super() or this() must be the first statement.
+
 * What is Inheritance?
 > Inheritance is a mechanism in which one object acquires all the properties and behaviour of another object of another class. It represents IS-A relationship. It is used for Code Resusability and Method Overriding.
 * What is composition?
