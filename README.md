@@ -60,12 +60,15 @@ It is excuted before main method at the time of classloading. <br />
 > Becauseof ambiguity.
 * Can we overload main() method?
 > Yes, You can have many main() methods in a class by overloading the main method.
-* What is method overriding:
+* What is method overriding?
 > If a subclass provides a specific implementation of a method that is already provided by its parent class, it is known as Method Overriding. It is used for runtime polymorphism and to provide the specific implementation of the method.
 * Can we override static method? Why?
 > No. It is because the static method is the part of class and it is bound with class whereas instance method is bound with object and static gets memory in class area and instance gets memory in heap.
-
-
+Difference between method Overloading and Overriding.
+* Difference between method Overloading and Overriding.
+> 1) Method overloading increases the readability of the program.	Method overriding provides the specific implementation of the method that is already provided by its super class.
+> 2) Method overloading is occurs within the class.	Method overriding occurs in two classes that have IS-A relationship.
+> 3) In this case, parameter must be different.	In this case, parameter must be same.
 
 ### Interesting
 * What is the default value of the local variables?
