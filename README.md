@@ -30,8 +30,8 @@
 static variable gets memory only once in class area at the time of class loading.
 
 * What is static method?
-> A static method belongs to the class rather than object of a class. <br />
-A static method can be invoked without the need for creating an instance of a class. <br />
+> static method belongs to the class rather than object of a class. <br />
+static method can be invoked without the need for creating an instance of a class. <br />
 static method can access static data member and can change the value of it. <br />
 
 * Why main method is static?
@@ -40,6 +40,15 @@ static method can access static data member and can change the value of it. <br 
 * What is static block?
 > It is used to initialize the static data member. <br />
 It is excuted before main method at the time of classloading. <br />
+
+Inheritance
+* What is this in java?
+It is a keyword that that refers to the current object.
+* What is Inheritance?
+> Inheritance is a mechanism in which one object acquires all the properties and behaviour of another object of another class. It represents IS-A relationship. It is used for Code Resusability and Method Overriding.
+* What is composition?
+> Holding the reference of the other class within some other class is known as composition.
+
 
 ### Interesting
 * What is the default value of the local variables?
