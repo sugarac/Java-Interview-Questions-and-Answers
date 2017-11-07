@@ -12,6 +12,11 @@
 * Explain method overloading & overriding. 
 * What is memory leak and how does Java handle it?
 
+Topics:
+<a href="#constructor">Constructor</a>,
+<a href="#final">final</a>,
+<a href="#static">static</a>,
+
 ### Constructor
 * What is constructor?
 > Constructor is just like a method that is used to initialize the state of an object. It is invoked at the time of object creation.
