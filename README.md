@@ -26,13 +26,20 @@
 
 ### static
 * What is static variable?
-> static variable is used to refer the common property of all objects (that is not unique for each object) e.g. company name of employees,college name of students etc.
-> static variable gets memory only once in class area at the time of class loading.
+> static variable is used to refer the common property of all objects (that is not unique for each object) e.g. company name of employees,college name of students etc. <br />
+static variable gets memory only once in class area at the time of class loading.
 
 * What is static method?
-> A static method belongs to the class rather than object of a class.
-A static method can be invoked without the need for creating an instance of a class.
-static method can access static data member and can change the value of it.
+> A static method belongs to the class rather than object of a class. <br />
+A static method can be invoked without the need for creating an instance of a class. <br />
+static method can access static data member and can change the value of it. <br />
+
+* Why main method is static?
+> because object is not required to call static method if It were non-static method,jvm creats object first then call main() method that will lead to the problem of extra memory allocation.
+
+* What is static block?
+> It is used to initialize the static data member. <br />
+It is excuted before main method at the time of classloading. <br />
 
 ### Interesting
 * What is the default value of the local variables?
