@@ -11,3 +11,7 @@
 * In Java, does the finally block gets executed if we insert a return statement inside the try block of a try-catch-finally?
 * Explain method overloading & overriding. 
 * What is memory leak and how does Java handle it?
+
+## High Level
+* What is the default value of the local variables?
+<p> The local variables are not initialized to any default value, neither primitives nor object references.
