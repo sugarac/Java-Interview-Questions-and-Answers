@@ -1,5 +1,5 @@
-# Java Interview Questions and Answers
-## Object-Oriented Programming
+## Java Interview Questions and Answers
+### Object-Oriented Programming
 * What are the main 3 Object Oriented Programing (OOP) concepts?
 * Explain object serialization and how to implement it in Java.
 * Explain anonymous classes. 
@@ -12,6 +12,18 @@
 * Explain method overloading & overriding. 
 * What is memory leak and how does Java handle it?
 
-## High Level
+### Constructor
+* What is constructor?
+> Constructor is just like a method that is used to initialize the state of an object. It is invoked at the time of object creation.
+* What is the purpose of default constructor?
+> The default constructor provides the default values to the objects. The java compiler creates a default constructor only if there is no constructor in the class.
+* Does constructor return any value?
+> Ans:yes, that is current instance (You cannot use return type yet it returns a value).
+* Is constructor inherited?
+> No, constructor is not inherited.
+* Can you make a constructor final?
+> No, constructor can't be final.
+
+### High Level
 * What is the default value of the local variables?
 > The local variables are not initialized to any default value, neither primitives nor object references.
