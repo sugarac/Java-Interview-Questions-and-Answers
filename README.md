@@ -41,6 +41,12 @@ static method can access static data member and can change the value of it. <br 
 > It is used to initialize the static data member. <br />
 It is excuted before main method at the time of classloading. <br />
 
+### final
+* What is final variable? What is final method? What is final class?
+> The value of final variable can't be changed. Final methods can't be overriden. Final class can't be inherited.
+* Can you declare the main method as final?
+> Yes, such as, public static final void main(String[] args){}.
+
 ### Inheritance
 * What is this in java?
 > It is a keyword that that refers to the current object.
@@ -69,6 +75,49 @@ Difference between method Overloading and Overriding.
 > 1) Method overloading increases the readability of the program.	Method overriding provides the specific implementation of the method that is already provided by its super class.
 > 2) Method overloading is occurs within the class.	Method overriding occurs in two classes that have IS-A relationship.
 > 3) In this case, parameter must be different.	In this case, parameter must be same.
+
+### Abstraction
+* What is abstraction?
+> Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+Abstraction lets you focus on what the object does instead of how it does it.
+* What is the difference between abstraction and encapsulation?
+> Abstraction hides the implementation details whereas encapsulation wraps code and data into a single unit.
+* What is abstract class?
+> A class that is declared as abstract is known as abstract class. It needs to be extended and its method implemented. It cannot be instantiated.
+
+* Can there be any abstract method without abstract class?
+> No, if there is any abstract method in a class, that class must be abstract.
+
+* Can you use abstract and final both with a method?
+No, because abstract method needs to be overridden whereas you can't override final method.
+
+* Is it possible to instantiate the abstract class?
+No, abstract class can never be instantiated.
+
+### Interface
+* What is interface?
+Interface is a blueprint of a class that have static constants and abstract methods.It can be used to achieve fully abstraction and multiple inheritance.
+
+* Can you declare an interface method static?
+> No, because methods of an interface is abstract by default, and static and abstract keywords can't be used together.
+
+* Can an Interface be final?
+> No, because its implementation is provided by another class.
+
+* What is marker interface?
+> An interface that have no data member and method is known as a marker interface.For example Serializable, Cloneable etc.
+
+* What is difference between abstract class and interface?
+> 1) An abstract class can have method body (non-abstract methods).	Interface have only abstract methods.
+> 2) An abstract class can have instance variables.	An interface cannot have instance variables.
+> 3) An abstract class can have constructor.	Interface cannot have constructor.
+> 4) An abstract class can have static methods.	Interface cannot have static methods.
+> 5) You can extends one abstract class.	You can implement multiple interfaces.
+* Can we define private and protected modifiers for variables in interfaces?
+> No, they are implicitly public.
+
+* When can an object reference be cast to an interface reference?
+> An object reference can be cast to an interface reference when the object implements the referenced interface.
 
 ### Interesting
 * What is the default value of the local variables?
