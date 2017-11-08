@@ -13,9 +13,13 @@
 * What is memory leak and how does Java handle it?
 
 Topics:
-<a href="#constructor">Constructor</a>,
-<a href="#final">final</a>,
 <a href="#static">static</a>,
+<a href="#final">final</a>,
+<a href="#overload">Overload</a>,
+<a href="#inheritance">Inheritance</a>,
+<a href="#abstraction">Abstraction</a>,
+<a href="#interface">Interface</a>,
+<a href="#interesting">Interesting</a>,
 
 ### Constructor
 * What is constructor?
@@ -52,6 +56,25 @@ It is excuted before main method at the time of classloading. <br />
 * Can you declare the main method as final?
 > Yes, such as, public static final void main(String[] args){}.
 
+### Overload
+* What is method overloading?
+> If a class have multiple methods by same name but different parameters, it is known as Method Overloading. It increases the readability of the program.
+* Why method overloading is not possible by changing the return type in java?
+> Becauseof ambiguity.
+* Can we overload main() method?
+> Yes, You can have many main() methods in a class by overloading the main method.
+
+### Override
+* What is method overriding?
+> If a subclass provides a specific implementation of a method that is already provided by its parent class, it is known as Method Overriding. It is used for runtime polymorphism and to provide the specific implementation of the method.
+* Can we override static method? Why?
+> No. It is because the static method is the part of class and it is bound with class whereas instance method is bound with object and static gets memory in class area and instance gets memory in heap.
+Difference between method Overloading and Overriding.
+* Difference between method Overloading and Overriding.
+> 1) Method overloading increases the readability of the program.	Method overriding provides the specific implementation of the method that is already provided by its super class.
+> 2) Method overloading is occurs within the class.	Method overriding occurs in two classes that have IS-A relationship.
+> 3) In this case, parameter must be different.	In this case, parameter must be same.
+
 ### Inheritance
 * What is this in java?
 > It is a keyword that that refers to the current object.
@@ -63,23 +86,6 @@ It is excuted before main method at the time of classloading. <br />
 > Inheritance is a mechanism in which one object acquires all the properties and behaviour of another object of another class. It represents IS-A relationship. It is used for Code Resusability and Method Overriding.
 * What is composition?
 > Holding the reference of the other class within some other class is known as composition.
-
-### Method Overloading & Overriding 
-* What is method overloading?
-> If a class have multiple methods by same name but different parameters, it is known as Method Overloading. It increases the readability of the program.
-* Why method overloading is not possible by changing the return type in java?
-> Becauseof ambiguity.
-* Can we overload main() method?
-> Yes, You can have many main() methods in a class by overloading the main method.
-* What is method overriding?
-> If a subclass provides a specific implementation of a method that is already provided by its parent class, it is known as Method Overriding. It is used for runtime polymorphism and to provide the specific implementation of the method.
-* Can we override static method? Why?
-> No. It is because the static method is the part of class and it is bound with class whereas instance method is bound with object and static gets memory in class area and instance gets memory in heap.
-Difference between method Overloading and Overriding.
-* Difference between method Overloading and Overriding.
-> 1) Method overloading increases the readability of the program.	Method overriding provides the specific implementation of the method that is already provided by its super class.
-> 2) Method overloading is occurs within the class.	Method overriding occurs in two classes that have IS-A relationship.
-> 3) In this case, parameter must be different.	In this case, parameter must be same.
 
 ### Abstraction
 * What is abstraction?
@@ -101,7 +107,7 @@ No, abstract class can never be instantiated.
 
 ### Interface
 * What is interface?
-Interface is a blueprint of a class that have static constants and abstract methods.It can be used to achieve fully abstraction and multiple inheritance.
+> Interface is a blueprint of a class that have static constants and abstract methods.It can be used to achieve fully abstraction and multiple inheritance.
 
 * Can you declare an interface method static?
 > No, because methods of an interface is abstract by default, and static and abstract keywords can't be used together.
