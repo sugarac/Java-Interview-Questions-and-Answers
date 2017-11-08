@@ -101,10 +101,10 @@ Abstraction lets you focus on what the object does instead of how it does it.
 > No, if there is any abstract method in a class, that class must be abstract.
 
 * Can you use abstract and final both with a method?
-No, because abstract method needs to be overridden whereas you can't override final method.
+> No, because abstract method needs to be overridden whereas you can't override final method.
 
 * Is it possible to instantiate the abstract class?
-No, abstract class can never be instantiated.
+> No, abstract class can never be instantiated.
 
 ### Interface
 * What is interface?
